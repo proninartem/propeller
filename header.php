@@ -24,7 +24,7 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 
-<!-- Lorem ipsum dolor sit amet consectetur adipisicing, elit. Alias, dolor, voluptates. Magni error, suscipit harum quod animi facere quaerat, ipsam veritatis placeat fugit accusantium rerum tempora necessitatibus dolores, vitae ea ipsum esse qui quisquam neque. Maxime temporibus possimus voluptate obcaecati repudiandae numquam vel nesciunt fugit facilis. Voluptates quia porro quae incidunt iste quod, consectetur quibusdam at deserunt pariatur inventore illum totam deleniti, eius quo dicta perspiciatis aliquam repellendus laudantium. Rem, dignissimos quo similique, nulla quisquam facilis quos alias dolorem maiores minus voluptates neque, recusandae in officiis nisi, accusamus nemo qui. Iure, voluptas. Culpa harum dolorum quas iste, velit dolor obcaecati! -->
+
 	<header id="masthead" class="site-header">
         <div class="container">
             <div class="row">
