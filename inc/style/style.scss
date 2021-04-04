@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+$fb: 30px;
+$fp: 16px;
+$cl_sny: #FFDD00;
+$cl_sdy: #FDC200;
+$cl_sb: #2574D1;
+$cl_tg: #2C343F;
+$cl_mg: #384049;
+$cl_lg: #F3F3F5;
+$tx: #2C343F;
+$ff: "Nunito Sans", sans-serif;
+$ff1:"Montserrat", sans-serif;
+$ff3:"Ubuntu", sans-serif;;
+$icons: 'icons'; 
+
+@import 'parts/00_mixins';
+@import 'parts/01_reset';
+@import 'parts/02_classes';
+@import 'parts/03_ui_kit';
+@import 'parts/04_apps';
+@import 'parts/05_plugins';
+@import 'parts/06_header';
+@import 'parts/07_footer';
+@import 'templates/00_tpl_parts';
+@import 'templates/19_tpl_guide_cards';
+@import 'templates/18_text_with_mockup';
+@import 'templates/17_form';
+@import 'templates/14_analytics';
+
+
+
+
+

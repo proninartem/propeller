@@ -1,0 +1,72 @@
+.site-header{
+  background: #FFDD00;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  .container{
+    @include rwd-min(1200) {
+      width: 100%;
+      max-width: calc( 100% - 22px );
+    }
+    @include rwd-max(1200){
+      width: calc( 100% - 35px );
+      max-width: calc( 100% - 35px );
+    }
+  }
+}
+.header_btn_block{
+  @include rwd-max(1200) {display: none;}
+}
+.logo_img.bg {
+  width: 120px;
+  padding-top: 25px;
+}
+.log_in{
+  background-image: url("/wp-content/uploads/2021/03/Frame-26.png");
+  width: 58px;
+  padding-top: 16px;
+
+}
+
+.black{
+  color: #20262F;
+  border: 1px solid #2C343F;
+}
+.main-navigation a{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #2C343F;
+  margin-right: 40px;
+  font-weight: 400;
+}
+.log_in_btn {
+  margin-right: 35px;
+}
+header .menu_block{
+  @include rwd-max(1200) {display: none;}
+}
+.open_menu{
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  @include rwd-max(1200) {display: flex;}
+  span {
+    height: 4px;
+    margin-bottom: 4px;
+    background: #000;
+    border-radius: 9px;
+    opacity: 1;
+    transition: .25s ease-in-out;
+    width: 24px;
+    @include rwd-max(1200) {display: block;}
+  }
+}
