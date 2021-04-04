@@ -25,7 +25,7 @@
 <div id="page" class="site">
 
 
-
+<!-- some text -->
 
 	<header id="masthead" class="site-header">
         <div class="container">
